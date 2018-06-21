@@ -7,6 +7,7 @@
 #load libraries
 library(tidyverse)
 library(formattable)
+###### Verändert
 #read in data
 setwd("E:/Advanced Reproducible Research with R/Session 2 Data and Datamanagement")
 getwd()
