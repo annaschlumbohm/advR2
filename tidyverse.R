@@ -16,7 +16,9 @@ my_data<-read_csv("IST_corrected.csv")
 #recreate example from Table 1
 #Gender balance
 #######
-table_dt<-
+### kl. Veränderung
+
+table_dt<-   
   my_data %>% 
   group_by(SEX) %>% #create a table with a cell for each gender
   summarise(gender_no=n()) %>% #count cells
